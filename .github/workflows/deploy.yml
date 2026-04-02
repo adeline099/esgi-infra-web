@@ -6,6 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment : esgi-infra-web
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
